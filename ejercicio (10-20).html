@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>encuesta</title>
+</head>
+<body>
+    <form>
+        <p>¿Cómo calificarías nuestro servicio?</p>
+        <input type="radio" id="excelente" name="satisfaccion" value="excelente">
+        <label for="excelente">Excelente</label><br>
+        <input type="radio" id="bueno" name="satisfaccion" value="bueno">
+        <label for="bueno">Bueno</label><br>
+        <input type="radio" id="regular" name="satisfaccion" value="regular">
+        <label for="regular">Regular</label><br>
+        <input type="radio" id="malo" name="satisfaccion" value="malo">
+        <label for="malo">Malo</label><br>
+
+        <p>¿Qué aspectos te gustaron? (puedes seleccionar más de uno)</p>
+        <input type="checkbox" id="atencion" name="aspectos" value="atencion">
+        <label for="atencion">Atención al cliente</label><br>
+        <input type="checkbox" id="calidad" name="aspectos" value="calidad">
+        <label for="calidad">Calidad del producto</label><br>
+        <input type="checkbox" id="precio" name="aspectos" value="precio">
+        <label for="precio">Precio</label><br>
+
+        <p>¿Cuál es tu rango de edad?</p>
+        <select name="edad">
+            <option value="">Selecciona una opción</option>
+            <option value="<18">Menos de 18 años</option>
+            <option value="18-30">18-30 años</option>
+            <option value="31-50">31-50 años</option>
+            <option value="">Más de 50 años</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar encuesta">
+    </form>
+    
+</body>
+</html>
